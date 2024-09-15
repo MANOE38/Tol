@@ -126,13 +126,13 @@ princp=[]
 
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/MANOE38/Pz/refs/heads/main/proxy10.txt').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	prox=open('.prox.txt','r').read().splitlines()
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/MANOE38/Pz/refs/heads/main/proxy1.txt').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 
